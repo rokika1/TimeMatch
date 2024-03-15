@@ -1,0 +1,185 @@
+body {
+    background-color: #F9F3F1;
+    overflow-y: scroll;
+}
+
+#eventHeader {
+    position: fixed;
+    text-align: center;
+    background-color: #7D7ABF;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 4px 0;
+}
+
+#eventHeader h1 {
+    color: #fbf3f3;
+    font-size: 24px;
+    letter-spacing: .40em;
+    font-family: monospace;
+}
+
+#event p, #event a, #event label {
+    font-size: 18px;
+}
+
+#event a {
+    color: #5C51A6;
+}
+
+#event h2 {
+    color: #5C51A6;
+    font-weight: 525;
+    font-size: 25px;
+    padding: 5px 0;
+    margin: 5px 0;
+}
+
+#event p, #event label {
+    margin: 5px 0;
+    font-size: 17px;
+}
+
+#event textarea {
+    width: 375px;
+}
+
+#lighter {
+    color: rgba(0, 0, 0, 0.498);
+}
+
+#eventDetails {
+    position: fixed;
+    top: 70px;
+    left: 2%;
+    width: 570px;
+}
+
+#groupDisplay {
+    position: fixed;
+    top: 70px;
+    left: 45%;
+}
+
+#personalDisplay {
+    position: fixed;
+    top: 410px;
+    left: 45%;
+    width: 760px;
+}
+
+#inputForms {
+    position: fixed;
+    top: 610px;
+    left: 2%;
+    width: 40%;
+}
+
+#authContainer {
+    display: flex;
+    border: 3px dashed #5C51A6;
+    padding: 30px;
+    justify-content: right;
+}
+
+#authContainer * {
+    margin-top: 5px;
+    width: 70%;
+}
+
+.cellButton {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0;
+}
+
+.cellButton:hover {
+    cursor: pointer;
+    background-color: #FEC165;
+}
+
+.cellButton.selected {
+    background-color: #7D7ABF;
+}
+
+#event table {
+    border-spacing: 0;
+    border: 1.5px solid #5C51A6;
+    white-space: nowrap;
+    font-size: 14px;
+    font-family: Cambria;
+    text-align: center;
+}
+
+#event table td {
+    border: 0.5px solid #5C51A6;
+    padding: 0;
+}
+
+#event th {
+    background-color: hsl(248, 34%, 48%);
+    padding: 5px;
+    margin: 5px;
+    color: #f9f9f9;
+}
+
+#login, #signup, #tableButton, #inputForms button {
+    cursor: pointer;
+    color: #5C51A6;
+    width: 50%;
+    font-size: 14px;
+    padding: 4px;
+    background-color: #F9F3F1;
+    border: 1.5px solid #5C51A6;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#commentForm button {
+    margin-left: 0 !important;
+}
+
+#inputForms button {
+    width: 20%;
+    padding: 2px;
+    margin: 10px;
+}
+
+#tableButton {
+    width: 20%;
+}
+
+#login:hover, #signup:hover, #tableButton:hover, #inputForms button:hover {
+    color: #F9F3F1;
+    background-color: #5C51A6;
+}
+
+#commentBox {
+    width: 530px;
+    max-height: 175px;
+    overflow-y: auto;
+    padding: 15px;
+    border: 2px dashed #5C51A6;
+}
+
+.comment {
+    margin-bottom: 10px;
+    background-color: #fec16556;
+    padding: 15px;
+}
+
+.tableContainer {
+    max-height: 230px;
+    max-width: 760px;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+#bar {
+    max-width: 760px;
+    overflow-x: auto;
+    white-space: nowrap;
+}

@@ -1,0 +1,155 @@
+body {
+    background-color: #F9F3F1;
+}
+
+#mainHeader {
+    position: fixed;
+    text-align: center;
+    background-color: #7D7ABF;
+    width: 100%;
+    left: 0px;
+    top:0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#mainHeader h1 {
+    color:#fbf3f3;
+    font-size: 35px;
+    letter-spacing: .40em;
+    font-family: monospace;
+}
+
+#leftForm {
+    position: fixed;
+    top: 23%;
+    left: 17%;
+}
+
+#rightForm {
+    position: fixed;
+    top: 33%;
+    left: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#leftForm h2 {
+    color: #5C51A6;
+    font-weight: 525;
+    font-size: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#leftForm * {
+    display: block;
+    font-family: Georgia;
+    font-size: 22px;
+    padding: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 125%;
+}
+
+#leftForm input, #leftForm textarea {
+    width: 150%;
+}
+
+#rightForm p {
+    display: block;
+    font-family: Georgia;
+    font-size: 22px;
+    padding: 4px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+
+#calendarContainer {
+    background-color: #5C51A6;
+}
+
+#monthNavigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#monthNavigator button {
+    cursor: pointer;
+    color: #5C51A6;
+    background-color: #F9F3F1;
+    font-size: 25px;
+    padding-inline: 12px;
+    border: 2px solid #5C51A6;
+    border-radius: 5px;
+}
+
+#monthNavigator button:hover {
+    color: #F9F3F1;
+    background-color: #5C51A6;
+    border: 2px solid #F9F3F1;
+}
+
+#currentMonth {
+    font-size: 20px;
+    font-family: monospace;
+    color: #F9F3F1;
+}
+
+#calendar * {
+    padding: 12px;
+    font-size: 15px;
+    font-family: monospace;
+    text-align: center;
+}
+
+#calendar th {
+    background-color: #5C51A6;
+    color: #f9f9f9;
+}
+
+#calendar td {
+    border: 0.5px solid #5C51A6;
+    background-color: #e5e4ef;
+    padding: 0px;
+}
+
+.dayButton {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: hidden;
+    background-color: #e5e4ef;
+}
+
+.dayButton:hover {
+    cursor: pointer;
+    background-color: #FEC165;
+    color: white;
+}
+
+.dayButton.selected {
+    background-color: #7D7ABF;
+    color: white;
+}
+
+#submitButton {
+    cursor: pointer;
+    color: #5C51A6;
+    font-size: 20px;
+    padding: 8px;
+    margin: 35px;
+    background-color: #F9F3F1;
+    border: 2px solid #5C51A6;
+    border-radius: 5px;
+    align-self: center;
+}
+
+#submitButton:hover {
+    color: #F9F3F1;
+    background-color: #5C51A6;
+}
